@@ -1,0 +1,20 @@
+:root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172339; background: #f5f7fb; line-height: 1.7; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #214cb6; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid #7194ef; outline-offset: 4px; }
+header, main, footer { max-width: 860px; margin: 0 auto; padding: 24px; }
+header { display: flex; gap: 20px; justify-content: space-between; align-items: center; border-bottom: 1px solid #dce3ef; }
+.brand { color: #172339; font-weight: 750; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 18px; font-size: .92rem; }
+main { padding-top: 52px; padding-bottom: 48px; }
+.eyebrow { color: #596a83; font-size: .85rem; font-weight: 650; letter-spacing: .03em; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; letter-spacing: -.035em; margin: 16px 0 24px; }
+h2 { font-size: 1.25rem; line-height: 1.4; margin-top: 0; }
+.lead { font-size: 1.12rem; color: #354760; }
+section { margin-top: 34px; }
+li { margin-bottom: 12px; }
+.notice { padding: 24px; background: #e9effb; border-left: 4px solid #466ac4; border-radius: 8px; }
+.notice p:last-child { margin-bottom: 0; }
+footer { color: #596a83; font-size: .85rem; border-top: 1px solid #dce3ef; padding-bottom: 40px; }
+@media (max-width: 560px) { header { align-items: flex-start; flex-direction: column; gap: 10px; } main { padding-top: 28px; } }
